@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone } from "lucide-react";
 import { IconInstagram, IconFacebook, IconYoutube } from "./SocialIcons";
-import TrompetaIcon from "./TrompetaIcon";
 import { CB_BRAND } from "../config/basualto";
 
 export default function Footer({ onDonate }: { onDonate: () => void }) {
