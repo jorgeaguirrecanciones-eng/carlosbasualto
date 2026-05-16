@@ -26,7 +26,7 @@ export default function Proyectos() {
       </section>
       <ProyectosGrid onDonate={() => setDonateOpen(true)} showTitle={false} />
       <Cierre onDonate={() => setDonateOpen(true)} />
-      <Footer onDonate={() => setDonateOpen(true)} />
+      <Footer />
       <TrompetaModal open={donateOpen} onClose={() => setDonateOpen(false)} />
     </div>
   );

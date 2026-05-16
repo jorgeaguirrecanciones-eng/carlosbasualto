@@ -102,7 +102,7 @@ export default function Contacto() {
         </div>
       </section>
 
-      <Footer onDonate={() => setDonateOpen(true)} />
+      <Footer />
       <TrompetaModal open={donateOpen} onClose={() => setDonateOpen(false)} />
     </div>
   );

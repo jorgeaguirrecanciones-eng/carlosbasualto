@@ -37,7 +37,7 @@ export default function BasualtoHome() {
       <Aliados />
       <Cierre onDonate={() => setDonateOpen(true)} />
 
-      <Footer onDonate={() => setDonateOpen(true)} />
+      <Footer />
 
       <TrompetaModal open={donateOpen} onClose={() => setDonateOpen(false)} />
     </div>

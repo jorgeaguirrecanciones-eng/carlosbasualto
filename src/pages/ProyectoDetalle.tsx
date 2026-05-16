@@ -94,7 +94,7 @@ export default function ProyectoDetalle() {
         </div>
       </div>
 
-      <Footer onDonate={() => setDonateOpen(true)} />
+      <Footer />
       <TrompetaModal open={donateOpen} onClose={() => setDonateOpen(false)} proyectoNombre={proyecto.nombre} />
     </div>
   );

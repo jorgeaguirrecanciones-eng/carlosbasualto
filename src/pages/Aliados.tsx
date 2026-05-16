@@ -118,7 +118,7 @@ export default function Aliados() {
         </div>
       </section>
 
-      <Footer onDonate={() => setDonateOpen(true)} />
+      <Footer />
       <TrompetaModal open={donateOpen} onClose={() => setDonateOpen(false)} />
     </div>
   );

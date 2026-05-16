@@ -3,7 +3,7 @@ import { Mail, Phone } from "lucide-react";
 import { IconInstagram, IconFacebook, IconYoutube } from "./SocialIcons";
 import { CB_BRAND } from "../config/basualto";
 
-export default function Footer({ onDonate }: { onDonate: () => void }) {
+export default function Footer() {
   return (
     <footer className="bg-cb-wine-deep text-white">
 
